@@ -1,12 +1,12 @@
 ---
 title: "Example Covid Report"
-author: "INFO-201: Class Demo"
-date: "2/7/2022"
+author: "INFO-201: Luis Chan"
+date: "11/10/2022"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
-source("../source/analysis.R")
+source("https://github.com/info201a-au2022/rmd-practice-ylc22/blob/main/source/analysis.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
