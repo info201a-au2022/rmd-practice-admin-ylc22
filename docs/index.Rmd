@@ -2,11 +2,13 @@
 title: "Example Covid Report"
 author: "INFO-201: Luis Chan"
 date: "11/10/2022"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
-source("https://github.com/info201a-au2022/rmd-practice-ylc22/blob/main/source/analysis.R")
+source("/Users/luischan/Documents/info201/rmd-practice-admin-ylc22/source/analysis.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
